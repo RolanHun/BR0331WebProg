@@ -1,0 +1,30 @@
+@charset "utf-8";
+body {
+    background: gray;
+}
+main{
+    max-width: 800px;
+    background: white;
+}
+main, header, section, article, footer {
+    border: 1px solid gray;
+}
+article img {width: 100%}
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+article div {
+    padding: 5px;
+    border-radius: 5px;
+}
+#nagykepTarolo img{
+    width: 100%
+}
+#nagykepTarolo{
+    padding: 10px;
+}
+section {
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+}
